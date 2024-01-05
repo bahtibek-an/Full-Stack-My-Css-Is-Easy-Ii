@@ -3,6 +3,11 @@
 	margin: 0px;
 }
 
+.container {
+	width: 100% !important;
+	background-color: red;
+}
+
 .header,
 .main,
 .sidebar,
@@ -10,18 +15,21 @@
 	border-radius: 20px;
 }
 
+/*
+	When I removed the space between the divs, the shadow of the divs looked too hunky, so I removed them
+*/
 .header {
-	box-shadow: 10px 10px #cdcdcd, inset 15px 15px rgba(300, 216, 7, 1.0) !important;
+box-shadow:/* 10px 10px #cdcdcd	,*/ inset 15px 15px rgba(300, 216, 7, 1.0) !important;
 }
 
 .main {
-	box-shadow: 10px 10px #cdcdcd, inset 15px 15px rgba(45, 146, 255, 1.0) !important;
+box-shadow:/* 10px 10px #cdcdcd	,*/ inset 15px 15px rgba(45, 146, 255, 1.0) !important;
 }
 
 .sidebar {
-	box-shadow: 10px 10px #cdcdcd, inset 15px 15px rgba(265, 76, 69, 1.0) !important;
+box-shadow:/* 10px 10px #cdcdcd	,*/ inset 15px 15px rgba(265, 76, 69, 1.0) !important;
 }
 
 .footer {
-	box-shadow: 10px 10px #cdcdcd, inset 15px 15px rgba(85, 190, 69, 1.0) !important;
+box-shadow:/* 10px 10px #cdcdcd	,*/ inset 15px 15px rgba(85, 190, 69, 1.0) !important;
 }
