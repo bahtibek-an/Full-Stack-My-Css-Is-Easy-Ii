@@ -1,13 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
-.container-fluid{
-    font-family: cursive;
-  }
-  
-  .border-rad {
-    border-radius: 10px;
-  }
-  
-  .header {
-    font-weight: bold;
-  }
-  
+.container{
+  font-family: cursive;
+  margin-top: 15vh;
+  max-width: inherit; 
+  width: 100%;
+}
+
+.border-rad {
+  border-radius: 15px;
+}
+
+.header {
+  font-weight: bold;
+}
