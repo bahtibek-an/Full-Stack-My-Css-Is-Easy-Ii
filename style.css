@@ -1,21 +1,59 @@
-.orange {
-    background-color: orange;
-    font-weight: bold;
-    text-align: center
-}
-
-.blue {
-    background-color: blue;
-    text-align: center
-}
-
-.red {
-    background-color: red;
-    text-align: center
+* {
+    margin:0;
+    padding: 0;
+    text-align: center;
 }
 
 
-.green {
-    background-color: green;
-    text-align: center
+
+.header {
+    background-color: #00B7EB;
+
+}
+
+.hero {
+    background-color: #ff0000;
+ 
+
+}
+
+.content {
+    background-color: #00FF00;
+    width: 100%;
+
+}
+
+.sidebar {
+    background-color: #800080;
+    width: 100%;
+
+}
+
+.footer {
+    background-color: #444444;
+    
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+    display: flex;
+    flex-direction: column;
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } 
+    .sidebar {
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+    }
+    }
 }
