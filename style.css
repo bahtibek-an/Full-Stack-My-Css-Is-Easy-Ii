@@ -1,0 +1,20 @@
+.content{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.header{
+    background-color: orange;
+}
+
+.main{
+    background-color: aqua;
+}
+
+.sidebar{
+    background-color:crimson;
+}
+
+.footer{
+    background-color: greenyellow;
+}
