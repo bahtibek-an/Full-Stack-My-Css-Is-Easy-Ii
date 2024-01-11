@@ -1,59 +1,36 @@
-* {
-    margin:0;
-    padding: 0;
+body{
+    margin: 0px !important;
+}
+
+.main{
+    background-color: blue;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.container{
     text-align: center;
+    height: 100vh;
+    max-width: none !important;
+    border-radius: 10px;
 }
 
-
-
-.header {
-    background-color: #00B7EB;
-
-}
-
-.hero {
-    background-color: #ff0000;
- 
-
-}
-
-.content {
-    background-color: #00FF00;
+.header{
+    background-color: orange;
+    padding: 25px;
+    font-weight: bold;
     width: 100%;
-
+    border-radius: 10px;
 }
 
-.sidebar {
-    background-color: #800080;
-    width: 100%;
-
+.footer{
+    background-color: green;
+    padding: 25px;
+    border-radius: 10px;
 }
 
-.footer {
-    background-color: #444444;
-    
-
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-}
-
-@media only screen and (max-width: 600px) {
-    .container {
-    display: flex;
-    flex-direction: column;
-    .content {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    } 
-    .sidebar {
-        width: 100%;
-    }
-    .content {
-        width: 100%;
-    }
-    }
+.sidebar{
+    background-color: red;
+    padding: 25px;
+    border-radius: 10px;
 }
