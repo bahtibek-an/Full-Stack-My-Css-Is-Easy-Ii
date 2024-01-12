@@ -1,24 +1,31 @@
+.container{
   text-align:center;
-  border:5px solid gray;
-  border-radius: 10px
+  border:10px solid black;
+}
+.col{
+  border:1px solid black;
 }
 .header{
-  border:2px solid gray;
+  text-align:center;
   border-radius:5px;
   background-color:orange;
 }
 .main{
-  border:2px solid gray;
+  text-align:center;
   border-radius:5px;
   background-color:rgb(1, 145, 255);
 }
 .sidebar{
-  border:2px solid gray;
+  text-align:center;
   border-radius:5px;
   background-color:rgb(255, 0, 0);
 }
 .footer{
-  border:2px solid gray;
+  text-align:center;
   border-radius:5px;
   background-color:rgb(0, 255, 81);
+}
+.empty{
+  border-radius:5px;
+  color:gainsboro;
 }
