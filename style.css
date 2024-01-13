@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: inherit;
+    width: 100%;
+}
+.col{
+    border: 2px solid #000;
+    padding: 29px;
+    border-radius: 16px;
+}
+
+.header{
+    font-weight: 600;
+    
+    background: #FFB233;
+}
+
+.main{
+    background: #00CDFF;
+}
+
+.sidebar{
+    background: #F7724B;
+}
+
+.footer{
+    background: #01CF1A;
+}
