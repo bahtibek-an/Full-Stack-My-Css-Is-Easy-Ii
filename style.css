@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Dhurjati&family=Kalnia:wght@300&family=Montserrat&display=swap");
+
+.content {
+  text-align: center;
+}
+
+.header {
+  border-radius: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  border-radius: 10px;
+}
+
+.sidebar {
+  border-radius: 10px;
+}
+
+.footer {
+  border-radius: 10px;
+}
