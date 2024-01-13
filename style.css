@@ -1,86 +1,26 @@
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-    color: #202729;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.wrapper {
-    min-height: 100%;
-    overflow: hidden;
-}
-
-.block {
-    display: grid;
-    grid-template: 1fr 1fr 1fr/1fr;
-    grid-template-areas: "header" "block__main" "footer";
-
-}
-
 .container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 10px;
 }
-
-.header {
-    grid-area: header;
-    padding: 40px;
-    text-align: center;
-    background-color: #f89426;
-    border-radius: 15px;
-    box-shadow: 8px 8px #cdcdcd, inset 10px 10px #f9a951;
-    margin-bottom: 8px;
-    border: solid 3px #f78101;
-    font-weight: bold;
+.row {
+    
 }
-
-.block__main {
-    grid-area: block__main;
-    display: grid;
-    grid-template: 1fr/2fr 1fr 1fr;
-    grid-template-areas: "main" "empty" "sidebar";
-    margin-bottom: 8px;
+.col-12 {
+    padding: 30px 0;
 }
-
-.main {
-    background-color: #3cbee6;
-    padding: 40px 0;
-    text-align: center;
-    border-radius: 15px;
-    box-shadow: 8px 8px #cdcdcd, inset 10px 10px #63cbeb;
-    margin-right: 10px;
-    border: solid 3px #09aae8;
+.bg-warning {
 }
-
-.sidebar {
-    background-color: #eb7171;
-    padding: 40px 15px;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 8px 8px #cdcdcd, inset 10px 10px #ef8d8d;
-    border: solid 3px #c93d3d;
+.text-center {
 }
-
-.empty {
-    opacity: 0;
-    background-color: #eb7171;
-    padding: 40px 15px;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 8px 8px #cdcdcd, inset 10px 10px #ef8d8d;
-    border: solid 3px #c93d3d;
-    margin-right: 10px;
+.font-weight-bold {
 }
-
-.footer {
-    grid-area: footer;
-    background-color: #73c575;
-    padding: 40px 0;
-    text-align: center;
-    border-radius: 15px;
-    box-shadow: 8px 8px #cdcdcd, inset 10px 10px #8fd191;
-    border: solid 3px #3aaf3a;
+.col-6 {
+    padding: 30px 0;
+}
+.bg-info {
+}
+.col-3 {
+    padding: 30px 0;
+}
+.bg-danger {
+}
+.bg-success {
 }
