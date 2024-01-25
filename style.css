@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  h1,h2,h3 
+  {
+    margin-top: 25px;
+  }
+  
+  .header-box-a 
+  {
+    background-color: orange;
+    font-weight: bold;
+    height: 100px;
+  }
+  
+  .main-box-b 
+  {
+    background-color: blue;
+    height: 100px;
+  }
+  
+  .sidebar-box-c 
+  {
+    background-color: red;
+    height: 100px;
+  }
+  
+  .footer-box-d 
+  {
+    background-color: green;
+    height: 100px;
+  }
+  
+  
+  
+  @media (max-width: 640px) {
+    .row {
+      flex-wrap: wrap;
+    }
+  }
