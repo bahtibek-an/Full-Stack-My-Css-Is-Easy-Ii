@@ -1,0 +1,78 @@
+$full: 100%;
+$full_px: 100px;
+$def_px: 10px;
+$auto: auto;
+$flex: flex;
+$null: 0;
+$font: Verdana, Geneva, Tahoma, sans-serif;
+$header_color: #F49D3B;
+$main_color: #a3a3f394;
+$sidebar_color: rgba(243, 79, 79, 0.7);
+$empty_color: #fff;
+$footer_color: rgb(76, 154, 76);
+$center: center;
+
+%margins_style {
+    margin: $null;
+    padding: $null;
+}
+
+%all_style {
+    width: $full;
+    height: $full_px * 0.8;
+    font-size: $def_px * 3;
+    padding: $def_px * 8.9 $null;
+    text-align: $center;
+    @extend %margins_style;
+    background-color: $header_color;
+    align-items: $center;
+    font-weight: 700;
+    border-radius: $def_px;
+}
+
+
+
+* {
+    @extend %margins_style;
+    font-size: ($def_px + 4);
+    font-family: $font;
+}
+
+body {
+    @extend %margins_style;
+    justify-content: $center;
+    align-items: $center;
+}
+
+.header {
+    @extend %all_style;
+}
+
+.flex_div {
+    display: $flex;
+    justify-content: $center;
+    align-items: $center;
+}
+
+.main_div,
+.empty_div,
+.sidebar_div {
+    @extend %all_style;
+}
+
+.main_div {
+    background-color: $main_color;
+}
+
+.empty_div {
+    background-color: $empty_color;
+}
+
+.sidebar_div {
+    background-color: $sidebar_color;
+}
+
+.footer {
+    @extend %all_style;
+    background-color: $footer_color;
+}
