@@ -4,7 +4,7 @@
 "
 # Task
 "
-    Create html and scc file and link with botsrap
+    Create html and scc file and link with botstrap
 "
 
 # Usage
