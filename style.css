@@ -1,0 +1,12 @@
+.wrap{
+    height: 100vh;
+}
+.header, .orta , .main-d , .oxiri{
+    height: 33.3vh;
+   border-radius: 12px;
+}
+.header , .orta , .main-d , .oxiri{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
