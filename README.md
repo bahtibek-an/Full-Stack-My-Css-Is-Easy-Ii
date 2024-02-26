@@ -8,7 +8,7 @@ this project demonstrates using of grid in bootstrap
 
 ## Installation
 
-1. Clone the repository  `https://github.com/bahtibek-an/Full-Stack-My-Css-Is-Easy-Ii.git`.
+1. Clone the repository  `https://github.com/BekzodKuchkarov/Full-Stack-My-Css-Is-Easy-Ii.git`.
 2. Navigate to the project directory.
 
 ## Usage
