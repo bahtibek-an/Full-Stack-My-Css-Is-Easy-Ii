@@ -1,63 +1,52 @@
-<div class="row">
-<div class="col-md-12 col-xl-12">
-<div class="markdown-body">
-<p class="text-muted m-b-15">
-</p><h1>My Css Is Easy Ii</h1>
-<p>Remember to git add &amp;&amp; git commit &amp;&amp; git push each exercise!</p>
-<p>We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file</p>
-<p>For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. Folder names are provided at the beginning of each exercise under <code>submit directory</code> and specific file names for each exercise are also provided at the beginning of each exercise under <code>submit file(s)</code>.</p>
-<hr>
-<table>
-<thead>
-<tr>
-<th>My Css Is Easy Ii</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Submit directory</td>
-<td>.</td>
-</tr>
-<tr>
-<td>Submit files</td>
-<td>index.html - style.css</td>
-</tr>
-</tbody>
-</table>
-<h3>Description</h3>
-<p>Create a html page (named: <code>index.html</code>) with a css style (named: <code>style.css</code>).</p>
-<p>It is require to use <code>bootstrap 4</code>, <code>bootstrap 5</code> or <code>TailWindCSS</code>. If you use any <code>float</code>, this exercise will be consider as failed.</p>
-<p>Bootstrap has a very powerful <code>grid system</code>. Learn it and use it!
-https://getbootstrap.com/docs/4.3/components/card/</p>
-<p>Bootstrap has also a lot of builtins class, before adding your you should check if it is not already part of bootstrap.
-ex: https://getbootstrap.com/docs/4.0/utilities/text/</p>
-<p>Your page won't have to be responsive.</p>
-<p>Your assignment will be to replicate this scheme:</p>
-<img src="https://storage.googleapis.com/qwasar-public/track-web/css_is_easy_II_grid.png" width="600px">
-<p>Empty container should not contain the word "empty"
-<code>header</code>, is really in bold ;-)</p>
-<p>Use correctly, H1/H2/H3</p>
-<p>Overall structure will be enough! :-) (it's the 2-4 hours max project.)</p>
-<p><em>Tips</em>
-Google: Bootstrap 4 (or bootstrap 5)
-Google: Css tutorial :D</p>
-<hr>
-<h4>Annex: Static Html Page Renderer</h4>
-<p>How to have a <code>static html page renderer</code> inside Docode:</p>
-<p>0# Open your HTML file:
-  
-<img src="https://storage.googleapis.com/qwasar-public/track-web/docode_web_mini_browser_1.png" width="60%"></p>
-<p>1# Click on the web preview button:
-  
-<img src="https://storage.googleapis.com/qwasar-public/track-web/docode_web_mini_browser_2.png" width="60%"></p>
+## My Css Is Easy Ii
 
-<p>2# You can preview your html:
-  
-<img src="https://storage.googleapis.com/qwasar-public/track-web/docode_web_mini_browser_3.png" width="60%"></p>
+### Overview
 
-<p></p>
-</div>
+This code provides a basic layout for a web page that can be customized to create a variety of different designs. The page is divided into two main sections: the header and the main content area. The header contains the title of the page, and the main content area contains the main content of the page, including the main section and the sidebar.
 
-</div>
-</div>
+### Features
+
+* Uses Bootstrap for basic styling
+* Custom CSS for additional styling
+* Responsive design
+* Easy to customize
+
+### Description
+
+The HTML code defines the structure of the page, including the header, main section, sidebar, and footer. The CSS code styles the page, including the background colors, border radius, and font sizes.
+
+The page is divided into two main sections: the header and the main content area. The header contains the title of the page, and the main content area contains the main content of the page, including the main section and the sidebar.
+
+The main section is the largest section of the page and contains the main content of the page. The sidebar is a smaller section that is located to the right of the main section and contains additional information or navigation links.
+
+The footer is located at the bottom of the page and contains copyright information or other relevant information.
+
+### Getting Started
+
+#### Installation
+
+1. Download the code from the GitHub repository.
+2. Unzip the code to a folder on your computer.
+3. Open the `index.html` file in a web browser.
+
+#### Usage
+
+1. Open the `easycss.css` file in a text editor.
+2. Make changes to the CSS code to customize the look and feel of the page.
+3. Save the changes to the CSS file.
+4. Refresh the `index.html` file in your web browser to see the changes.
+
+### Customization
+
+The code can be customized to create a variety of different designs. Here are a few examples:
+
+* Change the background colors of the header, main section, sidebar, and footer.
+* Change the border radius of the header, main section, sidebar, and footer.
+* Change the font sizes of the header, main section, sidebar, and footer.
+* Add additional content to the main section and sidebar.
+* Remove the sidebar.
+* Add a navigation bar to the header.
+
+### Conclusion
+
+This code provides a basic layout for a web page that can be customized to create a variety of different designs. The code is easy to use and customize, making it a great choice for beginners and experienced web developers alike.

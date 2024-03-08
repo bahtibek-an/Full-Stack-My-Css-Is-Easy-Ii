@@ -1,0 +1,19 @@
+
+.wrapper div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 17px;
+
+}
+.first_block{
+    height: 300px;
+    
+}
+.second_block{
+   
+    height: 300px;
+}
+.third_block{
+    height: 300px;
+}
