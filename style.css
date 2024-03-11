@@ -1,60 +1,25 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
-
 }
-.them{
-    margin-left: 300px;
-    margin-top: 30px;
-}
-.containers{
-    display: flex;
-    align-items: center;
-}
-header{
+.header {
     background-color: orange;
-    height: 180px;
-    text-align: center;
-    width: 990px;
-    box-shadow: 0px 0px 10px black;
-    border-radius: 20px;
 }
-
-footer{
-    background-color: green;
-    height: 180px;
-    text-align: center;
-    width: 990px;
-    box-shadow: 0px 0px 10px black;
-    border-radius: 20px;
-
-
+.row h1{
+    margin-top: 50px;
 }
-.containers main{
+.row .main{
     background-color: blue;
-    height: 180px;
-    text-align: center;
-    width: 400px;
-    box-shadow: 0px 0px 10px black;
-    border-radius: 20px;
-
 }
-.containers .empty{
+.row .empty {
     background-color: white;
-    height: 180px;
-    text-align: center;
-    width: 260px;
-    /* box-shadow: 0px 0px 10px black; */
-    border-radius: 20px;
-
 }
-.containers .sidebar{
-    background-color: rgb(246, 14, 122);
-    height: 180px;
-    text-align: center;
-    width: 326px;
-    box-shadow: 0px 0px 10px black; 
-    border-radius: 20px;
-
+.row .sidebar{
+    background-color: rgb(222, 133, 163);
+    height: 210px;
+}
+.footer {
+    background-color: green;
 }
